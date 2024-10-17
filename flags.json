@@ -57,7 +57,7 @@
     },
     {
         "id": 7,
-        "available": true,
+        "available": false,
         "name": "神聖ローマ帝国",
         "period": "14C-15C",
         "level": 0,
