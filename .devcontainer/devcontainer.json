@@ -1,0 +1,13 @@
+{
+    "name": "Python Development",
+    "dockerComposeFile": "./../docker-compose.yml",
+    "service": "python-dev",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "donjayamanne.python-extension-pack"
+            ]
+        }
+    }
+}

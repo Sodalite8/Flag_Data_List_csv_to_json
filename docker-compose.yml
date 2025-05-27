@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+    python-dev:
+        build:
+            context: .
+            dockerfile: ./docker/Dockerfile
+        container_name: python-dev
+        volumes:
+            - ./workspace:/workspace
+        working_dir: /workspace
+        tty: true
