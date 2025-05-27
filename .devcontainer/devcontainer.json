@@ -9,5 +9,10 @@
                 "donjayamanne.python-extension-pack"
             ]
         }
+    },
+    "portsAttributes": {
+        "*": {
+            "onAutoForward": "ignore"
+        }
     }
 }

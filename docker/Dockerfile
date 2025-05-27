@@ -1,7 +1,7 @@
 FROM python:latest
 
-RUN pip install openpyxl
-
 WORKDIR /workspace
+
+RUN pip install openpyxl
 
 CMD [ "/bin/bash" ]
