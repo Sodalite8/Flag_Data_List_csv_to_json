@@ -4,7 +4,7 @@ services:
         build:
             context: .
             dockerfile: ./docker/Dockerfile
-        container_name: python-dev
+        container_name: flag-converter-python-dev
         volumes:
             - ./workspace:/workspace
         working_dir: /workspace
